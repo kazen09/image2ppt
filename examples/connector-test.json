@@ -1,0 +1,78 @@
+{
+  "slide": {
+    "width_px": 1920,
+    "height_px": 1080,
+    "width_in": 13.333333
+  },
+  "pages": [
+    {
+      "name": "sample",
+      "background": {
+        "color": "#F7F9FD"
+      },
+      "elements": [
+        {
+          "type": "shape",
+          "geometry": "roundRect",
+          "x": 120,
+          "y": 170,
+          "w": 900,
+          "h": 600,
+          "fill": {
+            "gradient": {
+              "angle": 0,
+              "stops": [
+                {
+                  "pos": 0,
+                  "color": "#DDEAFF"
+                },
+                {
+                  "pos": 1,
+                  "color": "#FFFFFF"
+                }
+              ]
+            }
+          },
+          "border": {
+            "color": "#AFC1E8",
+            "width_pt": 1
+          },
+          "shadow": {
+            "color": "#202D4A",
+            "blur_pt": 8,
+            "distance_pt": 3,
+            "angle": 45,
+            "opacity": 0.22
+          },
+          "z": 1
+        },
+        {
+          "type": "text",
+          "text": "可编辑标题 Editable title",
+          "x": 155,
+          "y": 205,
+          "w": 790,
+          "h": 85,
+          "font_family": "Microsoft YaHei",
+          "font_size_pt": 28,
+          "bold": true,
+          "color": "#163769",
+          "z": 2
+        },
+        {
+          "type": "connector",
+          "x": 100,
+          "y": 850,
+          "w": 450,
+          "h": 0,
+          "geometry": "straight",
+          "end_arrow": "triangle",
+          "border": {
+            "color": "#0066CC",
+            "width_pt": 2
+          }
+        }
+      ]
+    }
+  ]
+}

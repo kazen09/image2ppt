@@ -1,0 +1,6 @@
+{
+  "required": [
+    "可编辑标题 Editable title"
+  ],
+  "minimum_characters": 10
+}

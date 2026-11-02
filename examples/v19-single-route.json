@@ -1,0 +1,122 @@
+{
+  "slide": {
+    "width_px": 1200,
+    "height_px": 675
+  },
+  "pages": [
+    {
+      "background": {
+        "color": "#FFFFFF"
+      },
+      "elements": [
+        {
+          "type": "shape",
+          "geometry": "roundRect",
+          "id": "card",
+          "x": 90,
+          "y": 80,
+          "w": 280,
+          "h": 160,
+          "corner_radius_px": 12,
+          "fill": {
+            "color": "#EFF7FF"
+          },
+          "border": {
+            "color": "#1685EE",
+            "width_pt": 1.2
+          }
+        },
+        {
+          "type": "text",
+          "text": "管理服务",
+          "x": 135,
+          "y": 112,
+          "w": 200,
+          "h": 70,
+          "font_size_pt": 27,
+          "color": "#064C9C"
+        },
+        {
+          "type": "shape",
+          "geometry": "roundRect",
+          "x": 800,
+          "y": 290,
+          "w": 250,
+          "h": 180,
+          "corner_radius_px": 9,
+          "fill": {
+            "color": "#F2F7FD"
+          },
+          "border": {
+            "color": "#1685EE",
+            "width_pt": 1.2
+          }
+        },
+        {
+          "type": "connector",
+          "id": "grpc-to-probe",
+          "geometry": "polyline",
+          "x": 320,
+          "y": 200,
+          "w": 550,
+          "h": 185,
+          "path_points": [
+            [
+              320,
+              200
+            ],
+            [
+              570,
+              200
+            ],
+            [
+              570,
+              385
+            ],
+            [
+              850,
+              385
+            ]
+          ],
+          "border": {
+            "color": "#0069E8",
+            "width_pt": 2.5
+          },
+          "end_arrow": "triangle"
+        },
+        {
+          "type": "connector",
+          "id": "health-report",
+          "geometry": "polyline",
+          "x": 850,
+          "y": 445,
+          "w": -600,
+          "h": 100,
+          "path_points": [
+            [
+              850,
+              445
+            ],
+            [
+              700,
+              445
+            ],
+            [
+              700,
+              545
+            ],
+            [
+              250,
+              545
+            ]
+          ],
+          "border": {
+            "color": "#05954D",
+            "width_pt": 2.5
+          },
+          "end_arrow": "triangle"
+        }
+      ]
+    }
+  ]
+}

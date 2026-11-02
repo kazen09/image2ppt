@@ -1,0 +1,24 @@
+{
+  "source": "source.png",
+  "icons": [
+    {
+      "id": "kafka-icon",
+      "page": 1,
+      "bbox": [
+        220,
+        365,
+        50,
+        52
+      ],
+      "scene_id": "kafka-icon",
+      "status": "unresolved_editable",
+      "relations": [
+        {
+          "target": "kafka-title",
+          "direction": "left_of",
+          "gap_px": 10
+        }
+      ]
+    }
+  ]
+}

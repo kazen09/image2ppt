@@ -1,0 +1,23 @@
+[project]
+name = "image2ppt-1to1-pro"
+version = "17.0.1"
+description = "Image-driven PowerPoint reconstruction with editable native objects and visual QA"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+  "python-pptx>=1.0.2,<2",
+  "Pillow>=10,<13",
+  "numpy>=1.26,<3",
+  "opencv-python-headless>=4.10,<5",
+  "fonttools>=4.55,<5",
+  "lxml>=5,<7",
+  "PyMuPDF>=1.24,<2",
+  "scikit-image>=0.22,<1",
+  "rapidfuzz>=3,<4",
+]
+
+[project.optional-dependencies]
+ocr = ["paddleocr>=3,<4"]
+svg = ["CairoSVG>=2.7,<3"]
+
+[tool.uv]
+package = false
