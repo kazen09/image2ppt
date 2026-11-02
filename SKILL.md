@@ -1,6 +1,6 @@
 ---
 name: image2ppt-1to1-pro
-description: 将 PNG/JPG 原始设计图高保真重建为 PPTX。保留 V19 单对象折线、V20 字体图例样式校验、V21 双向箭头，并强制图标从原图裁剪。
+description: 将 PNG/JPG 原始设计图高保真重建为 PPTX。
 ---
 
 # Image2PPT V21.2 — Full merged icon-enforced edition
